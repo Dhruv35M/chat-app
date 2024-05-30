@@ -3,7 +3,15 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-blue-400 underline">Chat App</h1>
+      <div className="m-5 flex gap-5">
+        <button class="btn">Button</button>
+        <button class="btn btn-neutral">Neutral</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-accent">Accent</button>
+        <button class="btn btn-ghost">Ghost</button>
+        <button class="btn btn-link">Link</button>
+      </div>
     </>
   );
 }
