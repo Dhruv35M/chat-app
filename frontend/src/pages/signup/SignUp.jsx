@@ -14,7 +14,7 @@ const SignUp = () => {
 
   const { loading, signup } = useSignup();
 
-  const dataHander = (e) => {
+  const inputHander = (e) => {
     const { name, value } = e.target;
     setData((prevData) => ({
       ...prevData,
@@ -47,7 +47,7 @@ const SignUp = () => {
             <input
               type="text"
               value={data.fullName}
-              onChange={dataHander}
+              onChange={inputHander}
               name="fullName"
               placeholder="Enter your full name"
               className="w-full input input-bordered  h-10"
@@ -61,7 +61,7 @@ const SignUp = () => {
             <input
               type="text"
               value={data.username}
-              onChange={dataHander}
+              onChange={inputHander}
               name="username"
               placeholder="Enter username"
               className="w-full input input-bordered border h-10"
@@ -75,7 +75,7 @@ const SignUp = () => {
             <input
               type="password"
               value={data.password}
-              onChange={dataHander}
+              onChange={inputHander}
               name="password"
               placeholder="Enter password"
               className="w-full input input-bordered h-10"
@@ -89,7 +89,7 @@ const SignUp = () => {
             <input
               type="password"
               value={data.confirmPassword}
-              onChange={dataHander}
+              onChange={inputHander}
               name="confirmPassword"
               placeholder="Confirm password"
               className="w-full input input-bordered h-10"
