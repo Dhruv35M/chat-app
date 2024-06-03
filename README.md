@@ -13,7 +13,7 @@ A real-time chat application built with the MERN stack (MongoDB, Express, React,
 
 ## Tech Stack
 
-- **Frontend**: React.js, Redux, tailwindCSS
+- **Frontend**: React.js, Zustand, tailwindCSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (using MongoDB Atlas)
 - **Real-Time Communication**: Socket.io
