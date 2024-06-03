@@ -26,7 +26,7 @@ const Login = () => {
   return (
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
       <div className="h-full w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
-        <h1 className="text-3xl font-semibold text-center text-gray-300">
+        <div className="text-3xl font-semibold text-center text-gray-300">
           <h1 className="text-gray-300">
             Login
             <span className="text-blue-500"> ChatApp</span>
@@ -80,7 +80,7 @@ const Login = () => {
               </button>
             </div>
           </form>
-        </h1>
+        </div>
       </div>
     </div>
   );
