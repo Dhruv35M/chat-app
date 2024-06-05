@@ -5,12 +5,13 @@ import { extractTime } from "../../utils/extractTime";
 
 const Message = ({ message }) => {
   const { authUser } = useAuthContext();
-  const { selectedCoversation } = useConversation();
+  const { selectedConversation } = useConversation();
   const fromMe = message.senderId === authUser._id;
   const formatedTime = extractTime(message.createdAt);
   const profilePic = fromMe
     ? authUser.profilePic
-    : selectedCoversation?.profilePic;
+    : selectedConversation?.profilePic;
+
   const chatClassName = fromMe ? "chat-end" : "chat-start";
   const bubbleBgColor = fromMe ? "bg-blue-500" : "bg-gray-700";
 
