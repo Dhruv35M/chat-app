@@ -12,6 +12,7 @@ const LogoutButton = () => {
         <BiLogOut
           className="w-6 h-6 text-white cursor-pointer"
           onClick={logout}
+          title="logout"
         />
       )}
     </div>

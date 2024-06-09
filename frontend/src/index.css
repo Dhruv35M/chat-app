@@ -3,16 +3,13 @@
 @tailwind utilities;
 
 body {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
-      no-repeat center / cover fixed; */
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://images.unsplash.com/photo-1533135091724-62cc5402aa20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
       no-repeat center / cover fixed;
 }
 
 /* dark mode looking scrollbar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -27,6 +24,19 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #242424;
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #434343, #434343 1px, #262626 0, #262626);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1544a2;
+  border-radius: 8px;
 }
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */

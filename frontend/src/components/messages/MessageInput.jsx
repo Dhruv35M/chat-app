@@ -21,7 +21,7 @@ const MessageInput = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Send a message"
-          className="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 text-white"
+          className="border border-blue-300 text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 text-white"
         />
         <button
           type="submit"
@@ -30,7 +30,7 @@ const MessageInput = () => {
           {loading ? (
             <div className="loading loading-spinner"></div>
           ) : (
-            <BsSend className="text-green-400" />
+            <BsSend className="text-green-400" title="Send" />
           )}
         </button>
       </div>
