@@ -18,6 +18,20 @@ A real-time chat application built with the MERN stack (MongoDB, Express, React,
 - **Database**: MongoDB (using MongoDB Atlas)
 - **Real-Time Communication**: Socket.io
 
+## Screenshots
+
+Login
+![Image Description](/screenshots/login.png)
+
+Signup
+![Image Description](/screenshots/signup.png)
+
+Home
+![Image Description](/screenshots/home.png)
+
+Chat
+![Image Description](/screenshots/chat.png)
+
 ## Installation
 
 ### Prerequisites
